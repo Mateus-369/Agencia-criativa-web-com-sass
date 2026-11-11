@@ -1,0 +1,4 @@
+@use "sass:math"; //Importando o módulo math do Sass para realizar cálculos matemáticos
+
+$font-padrao: 2rem;
+$font-menor: calc($font-padrao - 0.5rem)

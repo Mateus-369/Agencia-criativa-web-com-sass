@@ -1,0 +1,32 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('foto013.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(0, 217, 255);
+    font-size: 1.2rem;
+}
+
+header {
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+}
+
+section {
+    gap: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem;
+}   
+
+
+
+form {
+    margin: 1rem;
+    display: grid;
+    gap: 0.6rem;
+    place-items: center;
+}

@@ -1,0 +1,30 @@
+@use 'mixins';
+
+.pagina__secao {
+    
+    .pagina__titulo {
+        @include mixins.font-padrao;
+        color: #f5c55c;
+        margin-bottom: 1rem;
+
+    }
+}
+
+.depoimento {
+    margin-top: 1rem;
+    .depoimento__titulo {
+        @include mixins.font-menor;
+        color: #889bf3;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.informacoes-contato__titulo {
+    @include mixins.font-menor;
+    color: #778ef5;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+

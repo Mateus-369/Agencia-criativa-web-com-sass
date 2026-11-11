@@ -1,0 +1,27 @@
+
+
+@media (max-width: 500px) {
+    .nav__list{
+    grid-template-columns: auto;
+        gap: 1rem;
+    }
+}
+
+.nav__list {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        gap: 1rem;
+
+    .nav__link {
+        text-decoration: none;
+        color: rgb(171, 53, 175);
+        font-weight: bold;
+        font-size: 1.2rem;
+
+        &:hover {
+        color: #0099ff;
+    }
+    }
+
+}
+

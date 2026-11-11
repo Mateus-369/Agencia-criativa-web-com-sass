@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia Criativa Web</title>
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header class="cabeçalho">
+        <h1 class="cabeçalho__titulo">Agencia Criativa Web</h1>
+
+    <nav class="nav__list">
+        <a  class="nav__link" href="#home">Home</a>
+         <a class="nav__link" href="#sobre-nos">Sobre nós</a>
+         <a class="nav__link" href="#servicos">Servicos</a>
+         <a class="nav__link" href="#depoimentos">Depoimentos</a>
+         <a class="nav__link" href="#contato">Contato</a>
+    </nav>
+
+    </header>
+
+            <section class="pagina__secao" id="home">
+                <h1 class="pagina__titulo">Home</h1>
+                <p>Bem vindo ao nosso site aqui nos criamos paginas web completamente personalizadas e estilosas</p>
+            </section>
+
+            <section class="pagina__secao" id="sobre-nos">
+                <h1 class="pagina__titulo">Sobre nós</h1>
+                <p>somos profissionais de criacao web que valorizamos um trabalho bem feito</p>
+            </section>
+
+            <section class="pagina__secao" id="servicos">
+                <h1 class="pagina__titulo">Serviços</h1>
+                <ul><li>Criacão de Sites</li>
+                    <li>Design Grafico</li>
+                    <li>Gestao de Redes Sociais</li>
+                    <li>Desenvolvimento de Lojas Virtuais</li>
+                    <li>Marketing Digital</li></ul>
+            </section>
+
+            <section class="pagina__secao" id="depoimentos">
+                <h2 class="pagina__titulo">O que nossos clientes dizem</h2>
+
+            <div class="depoimento">
+                <div class="depoimento__item">
+                    <h3 class="depoimento__titulo">Ana Silva</h3>
+                    <p>
+                        A equipe da Agencia Criativa Web foi incrível! Eles entenderam exatamente o que eu queria e criaram um site que superou minhas expectativas.
+                    </p>
+                </div>
+                <div class="depoimento__item">
+                    <h3 class="depoimento__titulo">Lucas Ferreira</h3>
+                    <p>
+                    A Agencia Criativa Web transformou minha ideia
+                    em um site profissional e moderno!
+                    </p>
+                </div>
+
+                <div class="depoimento__item">
+                    <h3 class="depoimento__titulo">Mariana Costa</h3>
+                    <p>
+                        Minha loja virtual ficou linda, organizada e facil de usar. Agora consigo apresentar meus produtos de uma maneira muito mais profissional.
+                    </p>  
+                </div>
+            </div>
+
+            </section>
+
+                <section class="pagina__secao pagina__secao--contato" id="contato">
+                    
+                    <h1 class="pagina__titulo">Entre em contato</h1>
+                    <div class="informacoes-contato">
+                    <h2 class="informacoes-contato__titulo">Nosso endereço</h2>
+                        <p>Rua das flores, 123-centro</p>
+
+                        <h3 class="informacoes-contato__titulo">Nosso e-mail</h3>
+                        <p>
+                            <a class="informacoes-contato__link" href="mailto:contato@agenciacriativaweb.com">
+                                contato@agenciacriativaweb.com
+                            </a>
+                        </p>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="formulario-contato">
+                        <h3 class="pagina__contato">Envie uma mensagem</h3>
+
+                        <form>
+                            <label for="name">Nome:</label>
+                            <input class="formulario-contato__campo" type="text" id="nome" name="nome"
+                            placeholder="Digite seu nome" required>
+
+                            <label for="email">E-mail:</label>
+                            <input class="formulario-contato__campo" type="email" id="email" name="email"
+                            placeholder="Digite seu e-mail" required>
+
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea class="formulario-contato__campo" id="mensagem" name="mensagem"
+                            placeholder="Digite sua mensagem"
+                            rows="5" required></textarea>
+
+                            <button class="formulario-contato__botao" type="submit">Enviar mensagem</button>
+                        
+                        </form>
+                    </div>
+                </section>
+    
+</body>
+</html>

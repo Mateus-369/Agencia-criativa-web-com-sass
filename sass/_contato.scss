@@ -1,0 +1,51 @@
+@use 'mixins';
+
+.informacoes-contato__link {
+    color: #4ff0ba;
+    text-decoration: none;
+
+    &:hover {
+        color: #0099ff;
+    }
+}
+
+.pagina__contato {
+    @include mixins.font-padrao;
+    color: #f5c55c;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.formulario-contato__campo {
+    background-color: transparent;
+    border-radius: 0.2rem;
+    border: 1px solid #000000;
+    padding: 0.5rem;
+    width: 70%;
+    color: rgb(255, 255, 255);
+
+    &:focus {
+        outline: none;
+        border-color: #0099ff;
+    }
+
+    &::placeholder {
+        color: rgba(255, 56, 195, 0.7);
+        font-size: 1rem;
+    }
+
+}
+
+.formulario-contato__botao{
+    @include mixins.font-menor;
+    background-color: #0099ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #007acc;
+    }
+}
