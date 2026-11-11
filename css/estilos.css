@@ -41,12 +41,6 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 500px) {
-  .nav__list {
-    grid-template-columns: auto;
-    gap: 1rem;
-  }
-}
 .nav__list {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
@@ -62,6 +56,13 @@
   color: #0099ff;
 }
 
+@media (max-width: 500px) {
+  .nav__list {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 1rem;
+  }
+}
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("foto013.jpg");
   background-size: cover;
@@ -138,6 +139,15 @@ form {
 }
 .formulario-contato__botao:hover {
   background-color: #007acc;
+}
+
+@media (max-width: 500px) {
+  .formulario-contato__campo {
+    width: 90%;
+  }
+  .formulario-contato__botao {
+    width: 70%;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */

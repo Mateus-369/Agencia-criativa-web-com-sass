@@ -49,3 +49,15 @@
         background-color: #007acc;
     }
 }
+
+@media (max-width: 500px) {
+
+    .formulario-contato__campo {
+        width: 90%;
+    }
+
+    .formulario-contato__botao {
+        width: 70%;
+    }
+
+}
